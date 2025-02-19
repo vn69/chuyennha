@@ -30,3 +30,11 @@
 	padding:10px;
 	border-top:1px dashed #bcbcb0;
 }
+.elementor-image-gallery .gallery-item img {
+	object-fit: cover;
+	height: 200px;
+}
+.elementor-9 .elementor-element.elementor-element-7efaee80 .elementor-image-carousel-wrapper .elementor-image-carousel .swiper-slide-image {
+ height: 260px;
+ object-fit: cover;
+}

@@ -350,7 +350,7 @@ try {
         margin: 10,
         dots: false,
         autoplay: true,
-        autoplayTimeout: 6000,
+        autoplayTimeout: 12000,
         autoplayHoverPause: true,
         responsive: {
           0: {

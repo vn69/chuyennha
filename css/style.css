@@ -127,6 +127,7 @@ a:focus {
   padding: 10px 25px;
   color: #000000;
   text-align: center;
+  font-size: 20px;
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
@@ -829,7 +830,7 @@ a:focus {
 }
 .my-btn {
   cursor: pointer;
-  margin-top: 25px;
+  margin-top: 36px;
   display: inline-block;
   font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
@@ -959,7 +960,7 @@ a:focus {
 }
 .cam_des {
   margin-top: 4px !important;
-  font-size: 14px;
+  font-size: 15px;
   min-height: 42px;
 }
 
@@ -1415,4 +1416,8 @@ html {
     97% { transform:translateY(0%); }
     99% { transform:translateY(-3%); }
     100% { transform:translateY(0); }
+}
+
+html p{
+  line-height: 1.8 !important;
 }

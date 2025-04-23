@@ -119,7 +119,7 @@ try {
                                     src="./images/default.jpg"
                                     data-src="${data2[i].image}"
                                 />
-                              <h5 class="text-uppercase text-bold text-center w-100 my-2 fs-18 mh-40 d-flex align-items-center justify-content-center" style="">${data2[i].text}</h5>
+                              <h5 class="text-uppercase text-bold text-center w-100 my-2 mh-40 d-flex align-items-center justify-content-center">${data2[i].text}</h5>
                             </div>
                         `;
     

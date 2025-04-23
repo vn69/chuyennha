@@ -127,28 +127,54 @@ try {
       }
     
       const projects3 = document.getElementById("projects3");
-      const data3 = [
+      const data30 = [
         {
           title: "TIẾP NHẬN YÊU CẦU",
-          des: "Quý khách liên hệ tới Thành Đạt Post qua HOTLINE hoặc để lại thông tin đăng ký",
+          des: "Quý khách vui lòng liên hệ với Thành Đạt Post qua HOTLINE hoặc để lại thông tin đăng ký. Đội ngũ chúng tôi sẽ tiếp nhận và hỗ trợ nhanh chóng.",
         },
         {
-          title: "KHẢO SÁT BÁO GIÁ và ký HĐ",
-          des: "Nhân viên của Thành Đạt Post sẽ sắp xếp lịch hẹn khảo sát, tư vấn và báo giá trực tiếp miễn phí tại nhà. Nếu đống ý và ký hợp đồng, quý khách đặt cọc tối thiểu 20% giá trị hợp đồng.",
+          title: "KHẢO SÁT, BÁO GIÁ & KÝ HỢP ĐỒNG",
+          des: "Nhân viên Thành Đạt Post sẽ đến khảo sát trực tiếp, tư vấn chi tiết và báo giá hoàn toàn miễn phí. Nếu quý khách đồng ý, hợp đồng sẽ được ký kết với khoản đặt cọc tối thiểu 20% giá trị hợp đồng.",
         },
         {
           title: "ĐÓNG GÓI & VẬN CHUYỂN",
-          des: "Thành Đạt Post sẽ lên lịch, sắp xếp nhân công, xe cộ, vật liệu bọc lót và trang thiết bị cần thiết. Việc đóng gói – tháo lắp luôn được Thành Đạt Post tuyển chọn và đào tạo bài bản.",
+          des: "Chúng tôi sẽ lên lịch làm việc cụ thể, điều phối nhân lực, phương tiện, vật liệu đóng gói và trang thiết bị cần thiết. Mọi khâu đóng gói, tháo lắp đều do đội ngũ chuyên nghiệp, được đào tạo kỹ lưỡng thực hiện.",
         },
         {
           title: "LẮP ĐẶT & BÀN GIAO",
-          des: "Thành Đạt Post có trách nhiệm lắp đặt và bàn giao nguyên hiện trạng trước và sau khi vận chuyển. Trường hợp xảy ra đổ vỡ, mất mát chúng tôi cam kết bồi thường 100% giá trị tại thời điểm hiện tại.",
+          des: "Thành Đạt Post tiến hành lắp đặt và bàn giao toàn bộ tài sản theo đúng hiện trạng ban đầu. Trường hợp xảy ra hư hỏng hay mất mát, chúng tôi cam kết bồi thường 100% theo giá trị thực tế.",
         },
         {
-          title: "NGHIỆM THU THANH TOÁN",
-          des: "Kết thúc quá trình vận chuyển khách hàng kiểm tra lại đồ đạc đã vận chuyển. Nếu khách hàng cảm thấy hài lòng thanh toán số tiền còn lại cho nhân viên chuyển nhà.",
+          title: "NGHIỆM THU & THANH TOÁN",
+          des: "Sau khi hoàn tất quá trình vận chuyển, quý khách kiểm tra lại toàn bộ đồ đạc. Nếu hài lòng, vui lòng thanh toán phần chi phí còn lại cho nhân viên phụ trách.",
         },
       ];
+
+      // ngắn
+      const data3 = [
+        {
+          title: "TIẾP NHẬN YÊU CẦU",
+          des: "Quý khách gọi HOTLINE hoặc để lại thông tin, chúng tôi sẽ liên hệ nhanh chóng.",
+        },
+        {
+          title: "KHẢO SÁT & BÁO GIÁ",
+          des: "Nhân viên đến khảo sát miễn phí, tư vấn và báo giá. Ký hợp đồng nếu đồng ý, đặt cọc 20%.",
+        },
+        {
+          title: "ĐÓNG GÓI & VẬN CHUYỂN",
+          des: "Sắp xếp nhân sự, xe, vật tư và thiết bị để đóng gói và vận chuyển chuyên nghiệp.",
+        },
+        {
+          title: "LẮP ĐẶT & BÀN GIAO",
+          des: "Lắp đặt và bàn giao đúng hiện trạng. Cam kết bồi thường nếu có hư hỏng, mất mát.",
+        },
+        {
+          title: "NGHIỆM THU & THANH TOÁN",
+          des: "Khách kiểm tra đồ đạc. Hài lòng thì thanh toán phần còn lại.",
+        },
+      ];
+      
+      
     
       for (let i = 0; i < data3.length; i++) {
         const col = document.createElement("div");
@@ -175,8 +201,7 @@ try {
   
       col.innerHTML = `
                     <div class="box_quy_trinh box_quy_trinh-last" >
-                        <div class="quy_title">Đặt lịch chuyển nhà
-                        nhanh chóng <br>qua Hotline</div>
+                        <div class="quy_title">Tư vấn miễn phí</div>
                         <div class="text-center">
                             <a class="my-btn my-2 btn-white" href="tel:+84839941111">083.994.1111</a>
                         </div>
@@ -191,25 +216,26 @@ try {
       const data4 = [
         {
           image: "./images/12.jpg",
-          title: "ĐỘI NGŨ KINH NGHIỆM +15 NĂM",
-          des: "Làm việc nhanh gọn, khỏe mạnh, nhiệt tình, vui vẻ, lịch sự.",
+          title: "ĐỘI NGŨ GIÀU KINH NGHIỆM – HƠN 10+ NĂM",
+          des: "Đội ngũ nhân viên giàu kinh nghiệm, nhanh nhẹn, nhiệt tình, thân thiện và lịch sự.",
         },
         {
           image: "./images/5.jpg",
-          title: "BÁO GIÁ TỐT NHẤT",
-          des: "Được nhận báo giá đúng - chuẩn - tốt nhất tại thành phố Hà Nội",
+          title: "GIÁ CẢ CẠNH TRANH – BÁO GIÁ CHÍNH XÁC",
+          des: "Cam kết báo giá rõ ràng, minh bạch và cạnh tranh nhất tại Hà Nội. Không phát sinh chi phí ngoài hợp đồng.",
         },
         {
           image: "./images/2.jpg",
-          title: "PHỤC VỤ 24/7",
-          des: "Gọi là có sau 10 phút, luôn hỗ trợ khách mọi lúc kể cả ngày nghỉ",
+          title: "PHỤC VỤ NHANH CHÓNG – 24/7",
+          des: "Chỉ cần gọi – chúng tôi có mặt sau 10 phút! Sẵn sàng hỗ trợ bất kỳ lúc nào, kể cả cuối tuần và ngày lễ.",
         },
         {
           image: "./images/1.jpg",
-          title: "CAM KẾT HOÀN TIỀN",
-          des: "Bồi thường 100% giá trị nếu gây hư hỏng tài sản trong khi vận chuyển",
+          title: "CAM KẾT HOÀN TIỀN & BỒI THƯỜNG",
+          des: "Hoàn tiền 100% và bồi thường đầy đủ nếu có sự cố gây hư hỏng, mất mát tài sản trong quá trình vận chuyển.",
         },
       ];
+      
     
       for (let i = 0; i < data4.length; i++) {
         const col = document.createElement("div");
@@ -282,24 +308,28 @@ try {
           image: "./images/ava-1.jpeg",
           name: "Trần Huyền",
           comment: `
-						Dịch vụ chuyển văn phòng của <b>Thành Đạt Post</b> thực sự ấn tượng. Nhân viên tận tâm, quy trình bài bản giúp việc chuyển văn phòng diễn ra suôn sẻ và đúng kế hoạch. Tôi rất yên tâm khi sử dụng dịch vụ này.`,
+            Dịch vụ chuyển văn phòng của <b>Thành Đạt Post</b> thực sự ấn tượng. 
+            Nhân viên tận tâm và quy trình làm việc chuyên nghiệp đã giúp việc chuyển văn phòng của tôi diễn ra suôn sẻ và đúng tiến độ. 
+            Tôi hoàn toàn yên tâm khi lựa chọn dịch vụ này.`,
         },
         {
           image: "./images/ava-2.jpeg",
           name: "Phương Thuý",
           comment: `
-						Tôi đã sử dụng dịch vụ chuyển văn phòng trọn gói của <b>Thành Đạt Post</b> và rất hài lòng. Mọi thứ được lên kế hoạch chi tiết và thực hiện nhanh chóng, không ảnh hưởng đến công việc của công ty. Rất đáng tin cậy!`
+            Tôi đã sử dụng dịch vụ chuyển văn phòng trọn gói của <b>Thành Đạt Post</b> và thật sự rất hài lòng. 
+            Mọi thứ được lên kế hoạch chi tiết và triển khai nhanh chóng, không làm gián đoạn công việc của công ty. 
+            Đây là một dịch vụ đáng tin cậy!`,
         },
         {
           image: "./images/ava-3.jpeg",
           name: "Quang Hà",
           comment: `
-						Tôi rất hài lòng với dịch vụ chuyển nhà trọn gói của <b>Thành Đạt Post</b>. Đội ngũ làm việc chuyên nghiệp, đóng gói cẩn thận và vận chuyển nhanh chóng. Không có món đồ nào bị hư hỏng. Chắc chắn sẽ giới thiệu <b>Thành Đạt Post</b> cho bạn bè và người thân.`
+            Tôi rất hài lòng với dịch vụ chuyển nhà trọn gói của công ty. 
+            Đội ngũ làm việc chuyên nghiệp, đóng gói kỹ lưỡng và vận chuyển nhanh chóng. 
+            Tôi sẽ chắc chắn giới thiệu <b>Thành Đạt Post</b> cho bạn bè và gia đình.`,
         },
-          
-       
-       
       ];
+      
     
       for (let i = 0; i < data7.length; i++) {
         const col = document.createElement("div");

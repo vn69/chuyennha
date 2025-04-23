@@ -971,7 +971,7 @@ a:focus {
 
 .arrow {
   position: absolute;
-  top: 38%;
+  top: 33%;
   right: 11%;
   transform: translate(-50%, -50%);
   transform: rotate(-90deg);

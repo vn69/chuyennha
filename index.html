@@ -12,6 +12,9 @@
     <!-- Site Metas -->
     <meta name="keywords" content="" />
     <meta name="author" content="" />
+    <!-- Đặt thời gian cache của trang -->
+    <meta http-equiv="cache-control" content="max-age=3600" />  <!-- Cache trong 1 giờ -->
+    <meta http-equiv="expires" content="Fri, 12 Aug 2026 12:00:00 GMT" /> <!-- Đặt ngày hết hạn -->
 
     <title>Dịch Vụ Chuyển Nhà Trọn Gói Thành Đạt Post | Hotline: 083.994.1111</title>
     <meta name="description" content="Tập đoàn vận tải Thành Đạt Post cung cấp dịch vụ chuyển nhà trọn gói Hà Nội, chuyển văn phòng trọn gói, taxi tải Thành Đạt Post phục vụ 24/7 trên toàn Hà Nội.">
@@ -45,18 +48,17 @@
 <!-- /Rank Math WordPress SEO plugin -->
 
 
-        <!-- Owl Carousel - không cần thiết ban đầu -->
-    <link
+    <!-- Bootstrap - thường nên giữ lại nếu dùng layout của nó -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!-- dev -->
+    <!-- <link
     rel="stylesheet"
     href="css/owl.carousel.min.css"
     media="print"
     onload="this.media='all'"
     />
 
-    <!-- Bootstrap - thường nên giữ lại nếu dùng layout của nó -->
-    <link rel="stylesheet" href="css/bootstrap.css" />
-
-    <!-- Font Awesome - có thể defer nếu icon không dùng ngay -->
     <link
     rel="stylesheet"
     href="css/font-awesome.min.css"
@@ -64,20 +66,38 @@
     onload="this.media='all'"
     />
 
-    <!-- Custom style -->
-    <link rel="stylesheet" href="css/style.css" />
-
-    <!-- Responsive - defer nếu không có ảnh hưởng ngay -->
     <link
     rel="stylesheet"
     href="css/responsive.css"
     media="print"
     onload="this.media='all'"/>
+    
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+    rel="stylesheet"
+    href="css/style.css"
+    media="print"
+    onload="this.media='all'"
+    />
+
 
     <noscript>
       <link rel="stylesheet" href="css/owl.carousel.min.css" />
       <link rel="stylesheet" href="css/font-awesome.min.css" />
       <link rel="stylesheet" href="css/responsive.css" />
+      <link rel="stylesheet" href="css/style.css" />
+    </noscript> -->
+
+    <!-- pro -->
+
+    <link
+      rel="stylesheet"
+      href="css/all.min.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="css/all.min.css" />
     </noscript>
 
   </head>
@@ -390,11 +410,17 @@
     </footer>
     <!-- footer section -->
 
-    <script src="js/jquery-3.4.1.min.js" defer></script>
+    <!-- dev -->
+    <!-- <script src="js/jquery-3.4.1.min.js" defer></script>
     <script src="js/bootstrap.js" defer></script>
     <script src="js/carousel.js" defer></script>
     <script src="js/custom.js" defer></script>
+    <script src="js/lazysizes.js" async></script> -->
+
+    <!-- pro -->
+    <script src="js/all.min.js" defer></script>
     <script src="js/lazysizes.js" async></script>
+
 
   </body>
 </html>

@@ -127,7 +127,7 @@ try {
       }
     
       const projects3 = document.getElementById("projects3");
-      const data30 = [
+      const data3 = [
         {
           title: "TIẾP NHẬN YÊU CẦU",
           des: "Quý khách vui lòng liên hệ với Thành Đạt Post qua HOTLINE hoặc để lại thông tin đăng ký. Đội ngũ chúng tôi sẽ tiếp nhận và hỗ trợ nhanh chóng.",
@@ -151,7 +151,7 @@ try {
       ];
 
       // ngắn
-      const data3 = [
+      const data30 = [
         {
           title: "TIẾP NHẬN YÊU CẦU",
           des: "Quý khách gọi HOTLINE hoặc để lại thông tin, chúng tôi sẽ liên hệ nhanh chóng.",

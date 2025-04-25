@@ -130,6 +130,7 @@
                     src="./images/default.jpg"
                     data-src="./images/logo-mini.jpg"
                     alt="logo"
+                    height="60"
                   />
                 </span>
               </a>
@@ -197,7 +198,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-8">
-            <div class="detail-box">
+            <div class="detail-box detail-box-500">
               <div class="heading_container">
                 <h2 class="upper-case text-center">
                   THẤU HIỂU KHÁCH HÀNG - XÂY DỰNG NIỀM TIN - UY TÍN LÀ VÀNG
@@ -419,6 +420,11 @@
 
     <!-- pro -->
     <script src="js/all.min.js" defer></script>
+    <script>
+      window.lazySizesConfig = {
+        expand: 10,      // Càng nhỏ thì càng tải muộn
+      };
+    </script>
     <script src="js/lazysizes.js" async></script>
 
 

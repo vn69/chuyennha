@@ -857,7 +857,7 @@ a:focus {
   margin: 0 -5px;
 }
 .text-cam {
-  color: orange;
+  color: rgb(197, 128, 0);
 }
 
 .box_shadow {
@@ -911,7 +911,7 @@ a:focus {
 }
 .quy_title {
   font-weight: bold;
-  color: #ee8f00;
+  color: #c67700;
   text-transform: uppercase;
 }
 .quy_des {

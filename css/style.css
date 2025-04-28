@@ -118,6 +118,11 @@ a:focus {
   text-align: center;
   font-size: 20px;
 }
+@media (min-width: 992px) {
+  .custom_nav-container .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+  }
+}
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
   color: #0355cc;

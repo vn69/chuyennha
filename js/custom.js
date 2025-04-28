@@ -377,7 +377,6 @@ try {
       //client section owl carousel
       $(".carousel-1").owlCarousel({
         loop: true,
-        margin: 10,
         dots: false,
         autoplay: true,
         autoplayTimeout: 12000,
@@ -391,7 +390,6 @@ try {
     
       $(".owl-carousel").owlCarousel({
         loop: true,
-        margin: 10,
         dots: false,
         autoplay: true,
         autoplayTimeout: 6000,

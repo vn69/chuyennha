@@ -26,8 +26,8 @@
     <meta property="og:description" content="Tập đoàn vận tải Thành Đạt Post cung cấp dịch vụ chuyển nhà trọn gói Hà Nội, chuyển văn phòng trọn gói, taxi tải Thành Đạt Post phục vụ 24/7 trên toàn Hà Nội.">
     <meta property="og:url" content="https://vn69.github.io/chuyennha/">
     <meta property="og:site_name" content="VẬN TẢI Thành Đạt Post">
-    <meta property="og:image" content="./images/banner.jpg">
-    <meta property="og:image:secure_url" content="./images/banner.jpg">
+    <meta property="og:image" content="./images/banner_mb.jpg">
+    <meta property="og:image:secure_url" content="./images/banner_mb.jpg">
     <meta property="og:image:width" content="800">
     <meta property="og:image:height" content="450">
     <meta property="og:image:alt" content="Vận Tải Thành Đạt Post">
@@ -37,7 +37,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Dịch Vụ Chuyển Nhà Trọn Gói Thành Đạt Post | Hotline: 083.994.1111">
     <meta name="twitter:description" content="Tập đoàn vận tải Thành Đạt Post cung cấp dịch vụ chuyển nhà trọn gói Hà Nội, chuyển văn phòng trọn gói, taxi tải Thành Đạt Post phục vụ 24/7 trên toàn Hà Nội.">
-    <meta name="twitter:image" content="./images/banner.jpg">
+    <meta name="twitter:image" content="./images/banner_mb.jpg">
     <meta name="twitter:label1" content="Written by">
     <meta name="twitter:data1" content="support">
     <meta name="twitter:label2" content="Time to read">
@@ -128,7 +128,7 @@
           </div>
         </div>
         <div class="header_bottom" style="background-color: white">
-          <div class="container-fluid">
+          <div class="container">
             <nav class="navbar navbar-expand-lg custom_nav-container">
               <a class="navbar-brand" href="index.html">
                 <span>
@@ -188,17 +188,17 @@
       <!-- end header section -->
       <!-- slider section -->
       <section class="slider_section" id="home">
-        <img
-          class="lazyload blur-up"
-          style="
-            width: 100%;
-            height: auto;
-            aspect-ratio: 2 / 1;
-          "
-          src="./images/default.jpg"
-          data-src="./images/banner.webp"
-          alt="banner"
+        <picture>
+          <source media="(max-width: 768px)" srcset="./images/banner_mb.webp">
+          <source media="(min-width: 769px)" srcset="./images/banner.webp">
+          <img
+            src="./images/banner.webp"
+            style="width: 100vw; height: auto; aspect-ratio: 2 / 1;"
+            alt="Banner"
+            loading="lazy"
         />
+        </picture>
+        
       </section>
       <!-- end slider section -->
     </div>

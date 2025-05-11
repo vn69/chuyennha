@@ -305,24 +305,24 @@ try {
       const projects7 = document.getElementById("projects7");
       const data7 = [
         {
-          image: "./images/ava-1.jpeg",
-          name: "Trần Huyền",
+          image: "./images/ava-1.jpg",
+          name: "Anh Sơn",
           comment: `
             Dịch vụ chuyển văn phòng của <b>Thành Đạt Post</b> thực sự ấn tượng. 
             Nhân viên tận tâm và quy trình làm việc chuyên nghiệp đã giúp việc chuyển văn phòng của tôi diễn ra suôn sẻ và đúng tiến độ. 
             Tôi hoàn toàn yên tâm khi lựa chọn dịch vụ này.`,
         },
         {
-          image: "./images/ava-2.jpeg",
-          name: "Phương Thuý",
+          image: "./images/ava-2.jpg",
+          name: "Hằng Nga",
           comment: `
             Tôi đã sử dụng dịch vụ chuyển văn phòng trọn gói của <b>Thành Đạt Post</b> và thật sự rất hài lòng. 
             Mọi thứ được lên kế hoạch chi tiết và triển khai nhanh chóng, không làm gián đoạn công việc của công ty. 
             Đây là một dịch vụ đáng tin cậy!`,
         },
         {
-          image: "./images/ava-3.jpeg",
-          name: "Quang Hà",
+          image: "./images/ava-3.jpg",
+          name: "Thuý Hằng",
           comment: `
             Tôi rất hài lòng với dịch vụ chuyển nhà trọn gói của công ty. 
             Đội ngũ làm việc chuyên nghiệp, đóng gói kỹ lưỡng và vận chuyển nhanh chóng. 
